@@ -22,4 +22,4 @@ jobs:
 
     # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
-      run: dotnet publish BlazorGitHubPagesDemo.csproj -c Release -o release --nologo
+      run: dotnet publish blazorWasm.csproj -c Release -o release --nologo
